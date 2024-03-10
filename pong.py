@@ -12,14 +12,15 @@ top_edge = screen_height / 2
 bottom_edge = -top_edge
 middle = 0
 
+# font
+font = ("Courier", 24, "normal")
 
 """
 Game State
 """
-score_a = 0
-score_b = 0
-winning_score = 5
-higher_score = max(score_a, score_b)
+score_right = 0
+score_left = 0
+winning_score = 7
 
 """
 Window
@@ -36,12 +37,12 @@ Ball
 # add code here to initialize the ball
 
 """ 
-Paddle A
+Left Paddle
 """
 # add code here to initialize paddle A
 
 """ 
-Paddle B
+Right Paddle
 """
 # add code here to initialize paddle B
 
@@ -52,17 +53,29 @@ Scoreboard
 # add code here to initialize the scoreboard
 
 """
-Start Message 
+Message 
 """
-start_message = turtle.Turtle()
-start_message.color("white")
-start_message.write(
-    "Press space to start", align="center", font=("Courier", 24, "normal")
-)
+message = turtle.Turtle()
+message.color("white")
 
 """
 Helper Functions
 """
+
+
+def start_game():
+    message.clear()  # clear start message
+    play_pong()
+
+
+def game_over():
+    message.write("GAME OVER", align="center", font=font)
+    message.sety(message.ycor() - 50)
+    message.write(
+        "Lefty wins!" if score_left > score_right else "Righty wins!",
+        align="center",
+        font=font,
+    )
 
 
 """
@@ -71,18 +84,19 @@ Main Game Loop
 
 
 def play_pong():
-    start_message.clear()  # clear start message
-
     # main game loop
-    while higher_score < winning_score:
-        window.update()  # redraws screen on each tick
+    if max(score_left, score_right) < winning_score:
+        window.ontimer(play_pong, 1000 // 60)
+    else:
+        game_over()
 
 
 """
 Event listeners
 """
-window.onkey(play_pong, "space")
+window.onkey(start_game, "space")
 window.listen()
 
 
+message.write("Press space to start", align="center", font=font)
 turtle.mainloop()
