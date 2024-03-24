@@ -8,7 +8,7 @@ WHITE = (255, 255, 255)
 
 # game constants
 FPS = 60
-WIDTH, HEIGHT = 800, 800
+WIDTH, HEIGHT = 900, 700
 TOP, BOTTOM = 0, HEIGHT
 LEFT, RIGHT = 0, WIDTH
 MID_HEIGHT = HEIGHT // 2
@@ -24,6 +24,7 @@ class Paddle:
         self.width = 20
         self.height = 120
         self.padding = 10
+        self.border_radius = 7
         self.side = side
 
         self.starting_x = (
@@ -39,7 +40,7 @@ class Paddle:
         self.is_moving_down = False
 
     def draw(self, window):
-        pygame.draw.rect(window, BLACK, self.rect)
+        pygame.draw.rect(window, BLACK, self.rect, 0, self.border_radius)
 
     def change_movement(self, key_pressed):
         if key_pressed == self.up_key:
@@ -70,7 +71,7 @@ def draw_window(left_paddle, right_paddle):
     window.fill(WHITE)
     left_paddle.draw(window)
     right_paddle.draw(window)
-    pygame.display.update()
+    pygame.display.flip()
 
 
 def main():
