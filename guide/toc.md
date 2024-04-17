@@ -14,3 +14,6 @@
 - [fork the starter repository](guide_007.md)
 - [launch a Codespace](guide_008.md)
 - [virtual machines and version control](guide_009.md)
+- [git in practice, or your first commit](guide_010.md)
+
+## [`pygame` and a (very) basic game loop](guide_011.md)
