@@ -39,7 +39,8 @@ we have commits that "branch off" from the main commit line.
 
 <figure>
   <img src="https://the-turing-way.netlify.app/_images/sub-branch.png" alt="commit graph">
-  <figcaption>Image from [The Turing Way](https://the-turing-way.netlify.app/reproducible-research/vcs/vcs-git-branches.html)</figcaption>
+  <figcaption>Image from <a href="https://the-turing-way.netlify.app/reproducible-research/vcs/vcs-git-branches.html">The Turing Way</a></figcaption>
+  <br>
 </figure>
 
 [<<](guide_008.md) | [>>](guide_010.md) | [ToC](toc.md)
