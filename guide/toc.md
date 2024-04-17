@@ -13,3 +13,4 @@
 
 - [fork the starter repository](guide_007.md)
 - [launch a Codespace](guide_008.md)
+- [virtual machines and version control](guide_009.md)
