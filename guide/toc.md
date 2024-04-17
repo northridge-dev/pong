@@ -10,3 +10,5 @@
 - [the game loop](guide_005.md)
 
 ## [getting set up](guide_006.md)
+
+- [fork the starter repository](guide_007.md)
