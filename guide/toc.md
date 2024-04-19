@@ -17,3 +17,6 @@
 - [git in practice, or your first commit](guide_010.md)
 
 ## [`pygame` and a (very) basic game loop](guide_011.md)
+
+- [create `pong.py`](guide_012.md)
+- [install `pygame`](guide_013.md)
