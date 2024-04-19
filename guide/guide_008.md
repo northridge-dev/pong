@@ -14,3 +14,5 @@ getting some extras:
 
 If you're curious about how our Codespace gets configured, peek at the
 `.devcontainer.json` and `requirements.txt` files in your repo.
+
+[<<](guide_007.md) | [>>](guide_009.md) | [ToC](toc.md)
