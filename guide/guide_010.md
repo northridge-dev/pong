@@ -110,4 +110,12 @@ git push
 configured `git` to know about it.)
 
 Want to see your commit on GitHub? Open your browser and navigate to your
-repository. You should see you commit in this commit history.
+repository. Click on this link:
+
+![commit history link](../images/commits_link.png)
+
+You should see you new commit at the top of the commit history.
+
+![commit history](../images/commit_history.png)
+
+[<<](guide_009.md) | [>>](guide_011.md) | [ToC](toc.md)
