@@ -20,4 +20,7 @@
 
 - [create `pong.py`](guide_012.md)
 - [install `pygame`](guide_013.md)
-- [initialize and quite `pygame`](guide_014.md)
+- [initialize and quit `pygame`](guide_014.md)
+- [create a window](guide_015.md)
+- [launching the virtual desktop](guide_016.md)
+- [vanishing window](guide_017.md)
