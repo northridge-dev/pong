@@ -13,7 +13,8 @@ python pong.py
 Now hit enter and watch the virtual desktop. Did you see anything?
 
 What you _should_ see is the title bar of your game window appear and then
-disappear very quickly. The good news: our code is working! The bad news: we
-haven't (yet) figured out how to keep the window open.
+disappear very quickly. The good news: our code is working! We created a window,
+even if only for a brief moment. The bad news: we haven't (yet) figured out how
+to keep the window open.
 
 [<<](guide_016.md) | [>>](guide_018.md) | [ToC](toc.md)
