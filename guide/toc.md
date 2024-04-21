@@ -27,3 +27,4 @@
 - [experimenting with ways to keep the window open](guide_018.md)
 - [a loop to keep the game going](guide_019.md)
 - [listening for events](guide_020.md)
+- [game loop speed limit](guide_021.md)
