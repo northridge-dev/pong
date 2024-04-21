@@ -40,8 +40,8 @@ on the object we stored at `clock`. Like the `wait` function we used earlier,
 `tick` will pause the loop, but unlike `wait`, it can calculate how long to
 pause execution in order to reach a (more or less) consistent frame rate.
 
-Try it out. The window should stay open for 5 seconds and you should still see
-events like mouse movements and key strokes being printed to the terminal
-screen.
+Try it out. The window should stay open for 5 seconds on your computer or mine
+and you should still see events like mouse movements and key strokes being
+printed to the terminal screen.
 
-[<<](guide_022.md) | [>>](guide_024.md) | [ToC](toc.md)
+[<<](guide_019.md) | [>>](guide_022.md) | [ToC](toc.md)

@@ -19,7 +19,7 @@
 ## [`pygame` and a (very) basic game loop](guide_011.md)
 
 - [create `pong.py`](guide_012.md)
-- [install `pygame`](guide_013.md)
+- [import `pygame`](guide_013.md)
 - [initialize and quit `pygame`](guide_014.md)
 - [create a window](guide_015.md)
 - [launching the virtual desktop](guide_016.md)
