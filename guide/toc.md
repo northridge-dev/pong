@@ -28,3 +28,6 @@
 - [a loop to keep the game going](guide_019.md)
 - [listening for events](guide_020.md)
 - [game loop speed limit](guide_021.md)
+- [the `QUIT` event](guide_022.md)
+- [quitting the game](guide_023.md)
+- [summary: basic game loop](guide_024.md)
