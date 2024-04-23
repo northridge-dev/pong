@@ -20,22 +20,22 @@ We can test this theory by adding some code we'll quickly delete. At the top of
 the file, add this import:
 
 ```python
-from time import wait
+from time import sleep
 ```
 
 and just before the `pygame.quit()` command, add this line:
 
 ```python
-wait(5)
+sleep(5)
 ```
 
-The `wait` function asks Python to pause its execution for a number of seconds,
+The `sleep` function asks Python to pause its execution for a number of seconds,
 in this case 5. Now try running your code . . .
 
 Eureka! The window stays open!
 
 Our first hypothesis wasn't completely wrong, though. Let's try one more
-experiment. Uncomment the `pygame.quit()` command and add `wait(5)` on the line
+experiment. Uncomment the `pygame.quit()` command and add `sleep(5)` on the line
 after it. When you run your code, watch both the terminal and the virtual
 desktop. Try to explain to yourself what you see happen.
 
