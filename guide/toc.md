@@ -31,3 +31,5 @@
 - [the `QUIT` event](guide_022.md)
 - [quitting the game](guide_023.md)
 - [summary: basic game loop](guide_024.md)
+
+## [drawing to the window](guide_025.md)
